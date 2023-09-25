@@ -34,7 +34,6 @@ You will use HashiCorp Terraform to write your Infrastructure as Code and deploy
     * Terraform providers require access credentials so that Terraform can interact with the API of your provider.
     * Optional steps:
       * You can provide access credentials either through your system's environment, or by defining them in the provider configuration block. If you set up your CLI, you do not need to write the credentials in the provider configuration.
-      * [Pin your provider's version](https://www.terraform.io/language/providers/requirements) to create a more resilient codebase.
 
 1. [Initialize](https://www.terraform.io/cli/init) your working directory with Terraform to download and set up the provider.
 
